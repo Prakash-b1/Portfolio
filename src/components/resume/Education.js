@@ -49,26 +49,31 @@ const Education = () => {
             title="Full Stack Developer Intern"
             subTitle="Orangus digital pvt ltd"
             result="Delhi"
-            des="Proficient in front-end development (HTML, CSS, JavaScript).
-            Experienced with modern frameworks like React, Angular, or Vue.js.
-            Skilled in back-end development using languages like Python, React, Django, or Node.js.
-            Familiar with databases and integrating them into web applications.
-            Strong understanding of HTML, CSS, and JavaScript for building responsive and user-friendly web interfaces.
+            des="Built a strong foundation as a Full Stack Developer at Orangus Pvt Ltd, a 6-month contract role where
+I gained extensive hands-on experience in the MERN stack. Worked closely with teams on end-toend React.js projects, refining UI/UX design skills and implementing seamless, responsive interfaces.
+Enhanced skills in developing full-stack applications, optimizing code for performance, and collaborating
+effectively ,Built and maintained web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js) to create seamless, responsive user experiences.
+ Worked on improving UI/UX design elements to responsive design across multiple
+devices, enhancing overall user engagement. Actively participated in team meetings, code reviews, and
+feedback sessions, aligning development with project goals and client requirements. Focused on optimizing codebase for better performance,
+reducing load times, and enhancing scalability to handle growing user demand.
             "
           />
-          <ResumeCard
-            title="Web Developer Intern"
-            subTitle="Collectcent digital pvt ltd"
-            result="Delhi"
-            des="Web developer
-            4 month internship with colleccent as a web developer and worked with them in many websites.
-            helping them for making projects The webhunting And many more"
-          />
+
           <ResumeCard
             title="Full Stack Software developer"
             subTitle="Chawla tech"
             result="Remote"
-            des="Software developer making websites or softwares for company and its projects in backend or frontend. Backend typescript, nodejs, mongodb and in frontend tailwind, react and working in api's . managing the team and handling errors"
+            des="MERN Stack Developer with a solid background in full-stack web and mobile application development,
+currently thriving in a dynamic role at Chawla Tech. Successfully developed multiple web and mobile
+applications, contributing to both frontend and backend functionality. guiding projects from concept to
+completion while troubleshooting, optimizing, and refining code. Known for a collaborative approach and
+a commitment to delivering . Built 5 web applications and 2 mobile apps in React Native, focusing
+on performance, usability, and client satisfaction. Engaged in full-stack responsibilities, creating intuitive UIs and
+developing backend logic to support seamless user experiences. Proactively identified and fixed bugs, improving the stability and
+performance of deployed applications.
+
+"
           />
         </div>
       </div>
