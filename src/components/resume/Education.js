@@ -46,35 +46,26 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[71rem] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Full Stack Developer Intern"
-            subTitle="Orangus digital pvt ltd"
-            result="Delhi"
-            des="Built a strong foundation as a Full Stack Developer at Orangus Pvt Ltd, a 6-month contract role where
-I gained extensive hands-on experience in the MERN stack. Worked closely with teams on end-toend React.js projects, refining UI/UX design skills and implementing seamless, responsive interfaces.
-Enhanced skills in developing full-stack applications, optimizing code for performance, and collaborating
-effectively ,Built and maintained web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js) to create seamless, responsive user experiences.
- Worked on improving UI/UX design elements to responsive design across multiple
-devices, enhancing overall user engagement. Actively participated in team meetings, code reviews, and
-feedback sessions, aligning development with project goals and client requirements. Focused on optimizing codebase for better performance,
-reducing load times, and enhancing scalability to handle growing user demand.
-            "
+            title="Software Developer (MERN)"
+            subTitle="AB Media Co | Remote"
+            result="Dec 2024 - Present"
+            des="Developed and maintained 3+ scalable web apps using the MERN stack with 99.9% uptime. Implemented responsive design improving user engagement by 25%. Collaborated with cross-functional teams, reducing development time by 15%."
           />
 
           <ResumeCard
-            title="Full Stack Software developer"
-            subTitle="Chawla tech"
-            result="Remote"
-            des="MERN Stack Developer with a solid background in full-stack web and mobile application development,
-currently thriving in a dynamic role at Chawla Tech. Successfully developed multiple web and mobile
-applications, contributing to both frontend and backend functionality. guiding projects from concept to
-completion while troubleshooting, optimizing, and refining code. Known for a collaborative approach and
-a commitment to delivering . Built 5 web applications and 2 mobile apps in React Native, focusing
-on performance, usability, and client satisfaction. Engaged in full-stack responsibilities, creating intuitive UIs and
-developing backend logic to support seamless user experiences. Proactively identified and fixed bugs, improving the stability and
-performance of deployed applications.
-
-"
+            title="Software Developer (MERN)"
+            subTitle="Chawla Tech | Remote"
+            result="Jan 2022 - Nov 2024"
+            des="Built 5 high-performance web apps and 2 mobile apps. Reduced load time by 20%, mentored 3 junior devs, and ensured code quality via reviews. Delivered smooth user experience with React Native."
           />
+
+          <ResumeCard
+            title="Full Stack Developer (Freelance)"
+            subTitle="Freelance Projects | Remote"
+            result="Sept 2023 - Jan 2024"
+            des="Created 4+ interactive websites with modern animations and 3rd-party APIs. Delivered 100% client satisfaction by providing complete end-to-end solutions and technical consulting."
+          />
+
         </div>
       </div>
     </motion.div>
