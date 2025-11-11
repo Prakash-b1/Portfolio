@@ -1,6 +1,6 @@
-import React from 'react'
-import { motion } from 'framer-motion';
-import ResumeCard from './ResumeCard';
+import React from "react";
+import { motion } from "framer-motion";
+import ResumeCard from "./ResumeCard";
 
 const Education = () => {
   return (
@@ -9,67 +9,67 @@ const Education = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
-      {/* part one */}
-      <div>
+      {/* Education Section */}
+      <div className="w-full lgl:w-1/2">
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <h2 className="text-3xl md:text-4xl font-bold">Education</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
 
+        <div className="mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Full Stack Developer Diploma"
-            subTitle="Tech Stack Delhi"
-            result="Delhi"
-            des=""
-          />
-          <ResumeCard
-            title="HUMANITIES"
-            subTitle="KUMAUN UNIVERSITY "
-            result="UTTARAKHAND (2020-2023)"
-            des=""
-          />
-          <ResumeCard
-            title="Intermediate"
-            subTitle="RLK SENIOR SECONDARY SCHOOL"
-            result="UTTARAKHAND (2020)"
-            des=""
+            title="Diploma in Full Stack Development"
+            subTitle="Tech Stack Delhi | 2021 - 2022"
+            result="Delhi, India"
+            des="Specialized in MERN stack (React, Node.js, MongoDB, Express.js). Gained hands-on experience in building scalable web apps, API integration, and cloud deployment."
           />
 
+          <ResumeCard
+            title="Bachelor of Arts"
+            subTitle="Kumaun University | 2020 - 2023"
+            result="Uttarakhand, India"
+            des="Developed strong analytical and problem-solving skills. Balanced academic work with freelance web projects during graduation."
+          />
 
+          <ResumeCard
+            title="Intermediate (PCM + CS)"
+            subTitle="RLK Senior Secondary School | 2020"
+            result="Uttarakhand, India"
+            des="Completed senior secondary education with focus on computer fundamentals, logic building, and web basics."
+          />
         </div>
       </div>
-      {/* part Two */}
 
-      <div>
+      {/* Experience Section */}
+      <div className="w-full lgl:w-1/2">
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Experience</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[71rem] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+
+        <div className="mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Software Developer (MERN)"
             subTitle="AB Media Co | Remote"
             result="Dec 2024 - Present"
-            des="Developed and maintained 3+ scalable web apps using the MERN stack with 99.9% uptime. Implemented responsive design improving user engagement by 25%. Collaborated with cross-functional teams, reducing development time by 15%."
+            des="Developed and maintained production-grade apps for clients like Sunstar Hotel and Pingsy CRM. Integrated APIs (Google Maps, Razorpay, Shopify) and deployed on AWS. Improved UI performance and scalability by 25%."
           />
 
           <ResumeCard
             title="Software Developer (MERN)"
             subTitle="Chawla Tech | Remote"
             result="Jan 2022 - Nov 2024"
-            des="Built 5 high-performance web apps and 2 mobile apps. Reduced load time by 20%, mentored 3 junior devs, and ensured code quality via reviews. Delivered smooth user experience with React Native."
+            des="Built and optimized web & mobile apps using React, Node.js, and React Native. Enhanced performance via lazy loading and caching. Mentored junior developers and managed Git workflows for cleaner releases."
           />
 
           <ResumeCard
             title="Full Stack Developer (Freelance)"
-            subTitle="Freelance Projects | Remote"
-            result="Sept 2023 - Jan 2024"
-            des="Created 4+ interactive websites with modern animations and 3rd-party APIs. Delivered 100% client satisfaction by providing complete end-to-end solutions and technical consulting."
+            subTitle="Independent / Remote"
+            result="2023 - 2024"
+            des="Delivered 4+ freelance projects, including ITEL India & HostelWaleBhaiya. Focused on responsive UI, API integrations, and secure backend logic — achieving 100% client satisfaction."
           />
-
         </div>
       </div>
     </motion.div>
   );
-}
+};
 
-export default Education
+export default Education;
